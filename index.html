@@ -116,7 +116,55 @@ button{border:0;border-radius:8px;padding:10px 14px;background:var(--blue);color
 <aside class="card"><b>Question Palette</b><div class="legend"><span><i class="dot" style="background:#d9f2e4"></i>Answered</span><span><i class="dot" style="background:#fff0ce"></i>Review</span><span><i class="dot" style="background:#edf1f7"></i>Not answered</span></div><div id="palette"></div><hr style="border:0;border-top:1px solid var(--line);margin:14px 0"><div class="small" id="progressText"></div></aside></div>
 </section>
 <section id="result" class="hidden">
-<div class="card"><h2 style="margin-top:0">परिणाम / Test Result</h2><p id="resultName"></p><div class="resultgrid" id="resultStats"></div><h3>Percentile Obtained </h3><div class="stat" id="percentileResult"><b>—</b><span class="small">Expected percentile</span></div><p class="small muted">परसेंटाइल से आप जान पाते है कि कंपटीशन में आपकी पोजीशन क्या है </p><h3>विषयवार प्रदर्शन</h3><div id="subjectScores"></div><div class="row no-print" style="margin-top:16px"><button onclick="window.print()">Print Result</button><button class="secondary" id="showReview">Detailed Response Sheet</button></div></div>
+<div class="card"><h2 style="margin-top:0">परिणाम / Test Result</h2><p id="resultName"></p><div class="resultgrid" id="resultStats"></div><h3>Percentile Obtained </h3><div class="stat" id="percentileResult"><b>—</b><span class="small">Expected percentile</span></div><p class="small muted"><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Telegram</title>
+    <style>
+        .telegram-btn {
+            display: inline-flex;
+            align-items: center;
+            background-color: #229ED9; /* Telegram Blue Color */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .telegram-btn:hover {
+            background-color: #1c82b3;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .telegram-btn active {
+            transform: translateY(0);
+        }
+
+        /* Icon styling (Optional) */
+        .telegram-btn span {
+            margin-right: 8px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Kripya 'https://t.me/JOBALERT678' ko apne channel ke username se badlein -->
+    <a href="https://t.me/Jobalert678" class="telegram-btn" target="_blank">
+        <span>✈</span> Join Our Telegram Channel
+    </a>
+
+</body>
+</html>
+</p><h3>विषयवार प्रदर्शन</h3><div id="subjectScores"></div><div class="row no-print" style="margin-top:16px"><button onclick="window.print()">Print Result</button><button class="secondary" id="showReview">Detailed Response Sheet</button></div></div>
 <div class="card hidden" id="responseSheet"><h2>विस्तृत उत्तर-पत्र / Answer Review</h2><div id="reviewList"></div></div>
 </section>
 </div>
