@@ -56,7 +56,55 @@ button{border:0;border-radius:8px;padding:10px 14px;background:var(--blue);color
 <div class="stats"><div class="stat"><b>120</b><span class="small">प्रश्न</span></div><div class="stat"><b>120 मिनट</b><span class="small">समय</span></div><div class="stat"><b>360</b><span class="small">अधिकतम अंक</span></div><div class="stat"><b>+3 / −1</b><span class="small">अंकन</span></div></div>
 <ul><li>हर सही उत्तर के 3 अंक, गलत उत्तर पर 1 अंक की कटौती और खाली उत्तर पर 0 अंक।</li><li>भाषा टॉगल केवल द्विभाषी प्रश्नों के प्रदर्शन को बदलता है; हिन्दी, English और संस्कृत के निर्धारित प्रश्न अपनी मूल भाषा में रहेंगे।</li><li>कुल 90 प्रश्न द्विभाषी हैं और 30 भाषा-विशिष्ट हैं।</li><li>टेस्ट जमा करने के बाद उत्तर-कुंजी और संक्षिप्त व्याख्या दिखाई जाएगी।</li></ul>
 <div class="row"><label>अभ्यर्थी का नाम <input id="candidate" placeholder="अपना नाम लिखें"></label><label>प्रश्न भाषा <select id="language"><option value="hi">हिन्दी</option><option value="en">English</option></select></label><button id="begin">टेस्ट शुरू करें</button></div>
-<p class="small muted">नोट: यह अभ्यास हेतु प्रश्नपत्र है। © JobAlerT678 Telegram: https://t.me/JOBALERT678 </p>
+<p class="small muted">नोट: यह अभ्यास हेतु प्रश्नपत्र है। © JobAlerT678 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Telegram</title>
+    <style>
+        .telegram-btn {
+            display: inline-flex;
+            align-items: center;
+            background-color: #229ED9; /* Telegram Blue Color */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .telegram-btn:hover {
+            background-color: #1c82b3;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .telegram-btn active {
+            transform: translateY(0);
+        }
+
+        /* Icon styling (Optional) */
+        .telegram-btn span {
+            margin-right: 8px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Kripya 'https://t.me/JOBALERT678' ko apne channel ke username se badlein -->
+    <a href="https://t.me" class="telegram-btn" target="_blank">
+        <span>✈</span> Join Our Telegram Channel
+    </a>
+
+</body>
+</html>
+</p>
 </section>
 <section id="testArea" class="hidden">
 <div class="card row"><div class="grow"><b id="candidateLabel"></b><div class="small muted">UP SUPER TET MOCK TEST 06</div></div><label class="small">भाषा / Language <select id="liveLanguage"><option value="hi">हिन्दी</option><option value="en">English</option></select></label><div class="timer" id="timer">120:00</div><button class="danger" id="submitTop">Submit Test</button></div>
